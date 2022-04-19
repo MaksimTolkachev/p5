@@ -1,4 +1,4 @@
-let size; // Если вы хотите отрендерить изображение определенного размера, присвойте значение этой переменной
+let size;
 let seed = fxrand() * 1000000000;
 
 let angle = 0;
@@ -42,7 +42,6 @@ function setup() {
 }
 
 function draw() {
-  // background(0, 0, 0, 10)
   arrayDots.forEach((dot) => {
     strokeWeight(3);
     stroke(dot.color[0], dot.color[1], dot.color[2]);
