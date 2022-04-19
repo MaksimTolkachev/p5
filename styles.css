@@ -8,10 +8,6 @@ html, body {
 	align-items: center;
 }
 
-  canvas {
-
-  }
-
 html {	
 	flex-direction: column;
 }
