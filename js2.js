@@ -1,4 +1,4 @@
-let size;
+let size = 1000;
 let seed = fxrand() * 1000000000;
 
 let angle = 0;
