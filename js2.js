@@ -78,8 +78,3 @@ function draw() {
     }
   });
 }
-
-function windowResized() {
-  size = Math.min(windowWidth, windowHeight);
-  resizeCanvas(size, size);
-}
