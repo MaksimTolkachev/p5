@@ -73,7 +73,7 @@ function draw() {
       dot.y = 0;
       dot.angle = dot.angle + PI;
     }
-    if (frameCount > 80) {
+    if (frameCount > 100) {
       arrayDots = [];
     }
   });
